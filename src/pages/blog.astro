@@ -2,6 +2,7 @@
 import "../styles/global.css";
 
 const pageTitle = "My Astro Learning Blog";
+const description = "Posts about my journey learning Astro.";
 ---
 
 <html lang="en">
@@ -10,6 +11,7 @@ const pageTitle = "My Astro Learning Blog";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
     <title>{pageTitle}</title>
   </head>
   <body>
